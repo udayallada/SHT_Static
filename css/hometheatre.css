@@ -1,0 +1,53 @@
+﻿
+.ind-ha {
+    height: /*90vh*/ auto;
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../images/smart-home-using-control-panel.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;    
+    top: 5%;
+    padding: 2.5em;
+}
+
+
+.indht-bg {
+    position: relative;
+    top: 5%;
+    background-image: url('../images/ht_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 2.5em;    
+    z-index: 5;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.indht_title {
+    font-size: 3em;
+    margin-top: 15%;
+    text-transform: initial;
+    color: white;
+}
+
+
+.indht_break {
+    margin: 5% 0 2% 0;
+    height: 1px;
+    width: 100%;
+    background: white;
+}
+
+
+.sub-left {
+    color: white;
+    font-size: 0.9em;
+    position: relative;
+    top: -0.5em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+

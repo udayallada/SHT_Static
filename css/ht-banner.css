@@ -1,0 +1,84 @@
+﻿
+#home-page {
+    height: 100vh;
+    /*padding-right: 20px;*/
+    /*margin-top:70px;*/
+    color: white;
+    background-image: linear-gradient(rgba(64, 68, 77, 0.5), rgb(64, 68, 77, 0.5)), url('../images/ht_banner.jpg');
+    /*background-image: url('../../images/ht_banner.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+}
+
+    #home-page h1 {
+        font-family: 'Monoton', cursive;
+        font-size:100px
+    }
+
+        #home-page h4,h5{
+            font-size:18px
+        }
+
+
+
+        #home-page h1 {
+            animation-name: title-entrance;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            animation-delay: 0s;
+        }
+
+@keyframes title-entrance {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#subtitle {
+    animation-name: subtitle-entrance;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+@keyframes subtitle-entrance {
+    0% {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #home-page {
+        height:60vh;
+        /*background-position: right;*/
+        width:auto
+    }
+        #home-page h1 {
+            font-size:50px
+        }
+}
